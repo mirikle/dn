@@ -1,0 +1,5 @@
+spark-submit \
+  --class "ParallelZK" \
+  --master local[4] \
+  ../target/scala-2.11/dn3_2.11-1.0.jar
+
